@@ -135,15 +135,11 @@ exports.seed = async function (knex) {
             date: "2024-2025",
             brief: "Branding and marketing materials for the Archibald Amplify Lab.",
             concept: "A brand that is bold, confident, and forward-thinking.",
-            deliverables: "Logo design, brand guidelines, marketing materials",
+            deliverables: "Logo design, brand guidelines",
             demographic: "Students, researchers, and faculty",
             tech: ["Figma", "Illustrator"],
             github: "",
-            images: [
-                "archibald_amplify_lab_logo.png",
-                "archibald_amplify_lab_brand_guidelines.pdf",
-                "archibald_amplify_lab_marketing_materials.png",
-            ],
+            images: ["archibald_amplify_lab_logo.png", "archibald_amplify_lab_brand_guidelines.pdf"],
         },
     ]);
 };
