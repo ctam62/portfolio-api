@@ -2,6 +2,7 @@ exports.seed = async function (knex) {
     await knex("project").del();
     await knex("project").insert([
         {
+            id: 1,
             title: "SavoryScale",
             description:
                 "SavoryScale is a web application to make meal planning and grocery shopping more enjoyable and stree-free. Access recipes, plan meals and create an grocery list on the go. Whether you are in the kitchen, at the grocery store, or at work, build a grocery list based on your tastes. Explore and experiment with different recipes more confidently with quantity adjustments and estimated meal costs.",
@@ -18,6 +19,7 @@ exports.seed = async function (knex) {
             images: ["savoryscale.webp", "savoryscale-responsive.webp"],
         },
         {
+            id: 2,
             title: "YouWatch",
             description:
                 "YouWatch is a user-friendly web application that empowers users to effortlessly discover and explore their favourite movies or TV shows. The platform intelligently recommends the optimal streaming services aligned with their preferences, simplifying the sign-up process for a seamless and personalized viewing experience. This was the winning submission for a hackathon challenge proposed by Roku. Our team consisted of three UX designers team and four software engineers.",
@@ -33,6 +35,7 @@ exports.seed = async function (knex) {
             images: ["youwatch.webp", "youwatch-responsive.webp"],
         },
         {
+            id: 3,
             title: "iSpine",
             description:
                 "The iSpine program aims to establish a comprehensive platform for all medical imaging related diagnosis, treatment, population based analysis and more. The program is lead by the Digital Imaging Group (DIG) of London, a group of medical doctors, scientists, and engineers dedicated to improving and advancing digital medical imaging.",
@@ -48,19 +51,99 @@ exports.seed = async function (knex) {
             images: ["ispine.webp"],
         },
         {
+            id: 4,
             title: "GIF Reveal Rumble",
             description:
                 "A single player card matching game using GIF images from the GIPHY API. This was a hackathon project completed in a two person software egineering team.",
             url: "https://ctam62.github.io/gif-reveal-rumble/",
             client: "",
             date: "2023 October",
-            brief: "Design and build a frontend web application integrating a third-party API",
-            concept: "Simple multi-level card matching game",
+            brief: "Design and build a frontend web application integrating a third-party API.",
+            concept: "Simple multi-level card matching game.",
             deliverables: "Frontend web design and development; third-party API integration",
             demographic: "GIF enthusiasts",
             tech: ["HTML5", "Sass", "JavaScript"],
             github: "https://github.com/ctam62/gif-reveal-rumble",
             images: ["gifrevealrumble.webp"],
+        },
+        {
+            id: 5,
+            title: "Varsity Marketing & Design Materials",
+            description: "Western Mustangs are the athletics team of Western University in London Ontario.",
+            url: "https://westernmustangs.ca",
+            client: "Western Mustangs",
+            date: "2014-2017",
+            brief: "Creating marketing materials that are consistent with the varsity brand across all media platforms.",
+            concept: "Connecting people together as a ‘Purple Mustang’.",
+            deliverables:
+                "Billboard designs, ticket passes, posters, booklet layouts, social media assets (facebook, instagram, and twitter)",
+            demographic: "University students, athletes, sport fans, local community",
+            tech: ["Photoshop", "Illustrator", "InDesign"],
+            github: "",
+            images: [
+                "westernmustangs_flyer.webp",
+                "westernmustangs_billboard.webp",
+                "westernmustangs_ticket_pass.webp",
+                "westernmustangs_booklet.webp",
+                "westernmustangs_instagram.webp",
+                "westernmustangs_fb_mobile_post.webp",
+                "westernmustangs_fb_cover.jpg",
+                "westernmustags_football_tickets_landing_page.jpg",
+                "westernmustangs_twitter.jpg",
+                "westernmustangs_twitter_whiteout_2016.jpg",
+            ],
+        },
+        {
+            id: 6,
+            title: "Logo Design",
+            description:
+                "An annual global research meeting bringing together clinicians and basic scientists to exchange knowledge on all aspects of pediatric surgical diseases.",
+            url: "",
+            client: "International Symposium on Pediatric Surgical Research",
+            date: "2021 September",
+            brief: "Logo design with a symbolic representation of Winnipeg.",
+            concept: "Conference logo that embodies Winnipeg at its center.",
+            deliverables: "Logo design",
+            demographic: "Pediatric surgeons, clinicians, and scientists",
+            tech: ["Illustrator"],
+            github: "",
+            images: ["ispsr_id_card.png", "ispsr_canvas_bag.png", "ispsr_merchandise.png"],
+        },
+        {
+            id: 7,
+            title: "Patent Drawings + Packaging",
+            description:
+                "Sleep Armour provides pillow protectors to protect against allergens and dust mites for the optimal sleeping experience.",
+            url: "https://sleeparmour.com",
+            client: "Sleep Armour",
+            date: "2020-2022",
+            brief: "Creating a brand that feels safe, protective, and comforting.",
+            concept: "Sleep better sleep safer",
+            deliverables: "Patent drawings, packaging design, logo design, rollup banner",
+            demographic: "Travellers, hospital patients, individuals with allergies or are sensitive to dust",
+            tech: ["Illustrator", "Photoshop"],
+            github: "",
+            images: ["sleeparmour_patent_drawings.png", "sleeparmour_packaging.png", "sleeparmour_rollup_banner.png"],
+        },
+        {
+            id: 8,
+            title: "Branding",
+            description:
+                "The Archibald Arts and Mixed methods for Prioritizing Lived experiences and Implementation for Families and Youth (AMPFIFY) Lab is a research lab at the University of Manitoba that focuses on amplifying the voices of marginalized communities. Projects include art exhibitions, mixed methods research, and community engagement. Notably, they spearheaded the development of Collaboration Station, a living lab project that operates as an online platform for families and youth to share their stories and experiences.",
+            url: "",
+            client: "Archibald Amplify Lab",
+            date: "2024-2025",
+            brief: "Branding and marketing materials for the Archibald Amplify Lab.",
+            concept: "A brand that is bold, confident, and forward-thinking.",
+            deliverables: "Logo design, brand guidelines, marketing materials",
+            demographic: "Students, researchers, and faculty",
+            tech: ["Figma", "Illustrator"],
+            github: "",
+            images: [
+                "archibald_amplify_lab_logo.png",
+                "archibald_amplify_lab_brand_guidelines.pdf",
+                "archibald_amplify_lab_marketing_materials.png",
+            ],
         },
     ]);
 };
