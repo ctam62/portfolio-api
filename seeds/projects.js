@@ -107,7 +107,7 @@ exports.seed = async function (knex) {
             demographic: "Pediatric surgeons, clinicians, and scientists",
             tech: ["Illustrator"],
             github: "",
-            images: ["ispsr_id_card.png", "ispsr_canvas_bag.png", "ispsr_merchandise.png"],
+            images: ["ispsr_canvas_bag.png", "ispsr_id_card.png", "ispsr_merchandise.png"],
         },
         {
             id: 7,
@@ -123,7 +123,7 @@ exports.seed = async function (knex) {
             demographic: "Travellers, hospital patients, individuals with allergies or are sensitive to dust",
             tech: ["Illustrator", "Photoshop"],
             github: "",
-            images: ["sleeparmour_patent_drawings.png", "sleeparmour_packaging.png", "sleeparmour_rollup_banner.png"],
+            images: ["sleeparmour_rollup_banner.png", "sleeparmour_patent_drawings.png", "sleeparmour_packaging.png"],
         },
         {
             id: 8,
@@ -139,7 +139,7 @@ exports.seed = async function (knex) {
             demographic: "Students, researchers, and faculty",
             tech: ["Figma", "Illustrator"],
             github: "",
-            images: ["archibald_amplify_lab_logo.png", "archibald_amplify_lab_brand_guidelines.pdf"],
+            images: ["archibald_amplify_lab_brand_guidelines.pdf", "archibald_amplify_lab_logo.png"],
         },
     ]);
 };
