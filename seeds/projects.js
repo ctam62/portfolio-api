@@ -84,7 +84,7 @@ exports.seed = async function (knex) {
                 "westernmustangs_flyer.webp",
                 "westernmustangs_billboard.webp",
                 "westernmustangs_ticket_pass.webp",
-                "westernmustangs_booklet.webp",
+                "westernmustangs_booklet.jpg",
                 "westernmustangs_instagram.webp",
             ],
         },
