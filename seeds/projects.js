@@ -86,11 +86,6 @@ exports.seed = async function (knex) {
                 "westernmustangs_ticket_pass.webp",
                 "westernmustangs_booklet.webp",
                 "westernmustangs_instagram.webp",
-                "westernmustangs_fb_mobile_post.webp",
-                "westernmustangs_fb_cover.jpg",
-                "westernmustags_football_tickets_landing_page.jpg",
-                "westernmustangs_twitter.jpg",
-                "westernmustangs_twitter_whiteout_2016.jpg",
             ],
         },
         {
@@ -107,7 +102,13 @@ exports.seed = async function (knex) {
             demographic: "Pediatric surgeons, clinicians, and scientists",
             tech: ["Illustrator"],
             github: "",
-            images: ["ispsr_canvas_bag.png", "ispsr_id_card.png", "ispsr_merchandise.png"],
+            images: [
+                "ispsr_canvas_bag.png",
+                "ispsr_logo.png",
+                "ispsr_id_card.png",
+                "ispsr_keychain.png",
+                "ispsr_pen.png",
+            ],
         },
         {
             id: 7,
@@ -123,7 +124,12 @@ exports.seed = async function (knex) {
             demographic: "Travellers, hospital patients, individuals with allergies or are sensitive to dust",
             tech: ["Illustrator", "Photoshop"],
             github: "",
-            images: ["sleeparmour_rollup_banner.png", "sleeparmour_patent_drawings.png", "sleeparmour_packaging.png"],
+            images: [
+                "sleeparmour_rollup_banner.png",
+                "sleeparmour_packaging_box.webp",
+                "sleeparmour_packaging_box_open.jpg",
+                "sleeparmour_patent_drawings.png",
+            ],
         },
         {
             id: 8,
@@ -139,7 +145,11 @@ exports.seed = async function (knex) {
             demographic: "Students, researchers, and faculty",
             tech: ["Figma", "Illustrator"],
             github: "",
-            images: ["archibald_amplify_lab_brand_guidelines.pdf", "archibald_amplify_lab_logo.png"],
+            images: [
+                "archibald_amplify_lab_logo.png",
+                "archibald_amplify_lab_logo.png",
+                "archibald_amplify_lab_brand_guidelines.png",
+            ],
         },
     ]);
 };
