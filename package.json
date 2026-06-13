@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/ctam62/portfolio-api#readme",
   "dependencies": {
-    "@vercel/node": "^3.0.14",
+    "@vercel/node": "^5.8.17",
     "@vercel/postgres": "^0.5.1",
     "@vercel/postgres-kysely": "^0.6.0",
     "cors": "^2.8.5",
@@ -38,6 +38,6 @@
     "knex": "^3.1.0",
     "kysely": "^0.28.17",
     "pg": "^8.11.3",
-    "sass": "^1.69.5"
+    "sass": "^1.101.0"
   }
 }
