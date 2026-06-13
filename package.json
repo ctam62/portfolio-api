@@ -30,8 +30,8 @@
   "homepage": "https://github.com/ctam62/portfolio-api#readme",
   "dependencies": {
     "@vercel/node": "^5.8.17",
-    "@vercel/postgres": "^0.5.1",
-    "@vercel/postgres-kysely": "^0.6.0",
+    "@vercel/postgres": "^0.10.0",
+    "@vercel/postgres-kysely": "^0.10.0",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^5.2.1",
